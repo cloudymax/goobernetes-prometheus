@@ -49,7 +49,7 @@ spec:
         scrape_configs:
         - job_name: ingress
           honor_timestamps: true
-          scrape_interval: 1m
+          scrape_interval: 5s
           scrape_timeout: 1m
           metrics_path: /metrics
           scheme: http
